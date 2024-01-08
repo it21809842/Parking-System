@@ -1,0 +1,13 @@
+const name_pattern = /^[A-Z a-z]+$/;
+const cname_pattern = /^[A-Z a-z 0-9]+$/;
+const c_name_pattern = /^[A-Z ]+$/;
+const card_pattern = /^[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}$/;
+const expire_pattern = /^(0[0-9]|1[0-2])[/]([2-9][0-9])$/;
+const cvc_pattern = /^[0-9]{3}$/;
+const uname_pattern = /^[A-Za-z0-9]+$/;
+const mobile_pattern = /^[0-9]{10}$/;
+const v_no_pattern = /^([A-Z]{2}-[0-9]{4}|[A-Z]{3}-[0-9]{4})$/;
+const address_pattern = /^[A-Z a-z 0-9 , . / -]+$/;
+const description_pattern = /^[A-Z a-z 0-9 , . / - ' " ( ) : ]+$/;
+const email_pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+const job_category_pattern = /^[A-Z a-z]+$/;
